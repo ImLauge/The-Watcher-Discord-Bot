@@ -10,7 +10,7 @@ def read_cofig():
     try:
         from configparser import ConfigParser
     except ImportError:
-        from ConfigParser import ConfigParser  # ver. < 3.0
+        from configparser import ConfigParser  # ver. < 3.0
 
     # instantiate
     config = ConfigParser()
@@ -52,6 +52,12 @@ def read_cofig():
         bot_enable_name_changes = config.getboolean(
             'section_b', 'bot_enable_name_changes')
         myDic['bot_enable_name_changes'] = bot_enable_name_changes
+        
+        steam_api_key = config.get(
+            'section_b', 'steam_api_key')
+        myDic['steam_api_key'] = steam_api_key
+        
+        
 
         return myDic
 
