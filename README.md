@@ -1,4 +1,15 @@
 # The-Watcher-Discord-Bot For the game Rust
+
+Fork notes:
+I stumbled upon this bot, and it was exactly what I was looking for. Going into this I had no previous coding experience, so going head first into this was quite a challenge. I couldn't make the name change notifications work, which was the main thing I wanted, so that was the first step. After, with the help of a colleague, fixing that. I started adding features to the best of my abilities, some of those features were:
+
+- Announcements when a new player has been added
+- Profile pictures to embed player lookup
+- Manually adding players to database
+- Reworking the command system and adding new commands
+
+Original readme:
+
 A Discord Watcher bot for the game Rust.
 Yes i play the game Rust by Facepunch and i want to keep track of players who login and log out and how long they played for, so i created a discord bot to do this for me.
 
